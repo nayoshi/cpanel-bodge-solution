@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/potato/
+    - /bin/cp -R ./ $DEPLOY
